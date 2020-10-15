@@ -1,0 +1,103 @@
+#sideNav-Main {
+    //height: 100%;
+    //height: 1001px;
+    
+    
+}
+
+#sideNav-Left {
+    position: fixed;
+    background-color: #E5E5E5;
+    //height: 1001px;
+    //width: 300px;
+    margin-right: 0;
+    height: 100%;
+    min-height: 100vh;
+    max-width: 300px;
+}
+
+#sideNav-Heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    padding-top: 42px;
+    padding-left: 30px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+// #border{
+//     position: absolute;
+//     width: 300px;
+//     height: 0px;
+//     left: 0.5px;
+//     top: 97px;
+//     border: 1px solid #B4B1B1;
+// }
+
+.col-3 {
+    width: 240px;
+}
+
+#navLink {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    padding-left: 30px;
+    margin-top: 37px;
+    margin-left: 10px;
+    // outline: 1px solid black;
+}
+
+#nav > .active {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    background-color:#53BD9C;
+    width: 300px;
+    height: 60px;
+    margin-left: -15px;
+    padding-left: 55px;
+    //box-shadow: inset 4px 0 0 #53bd9c;
+    color: #FFFFFF;;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222222;
+}
+
+:focus {
+    outline:0 !important;
+    background-color: transparent;
+}
+
+#btn-logout{
+    position:fixed;
+    width: 190px;
+    height: 42px;
+    //left: 55px;
+    margin-left: 45px;
+    bottom: 41px;
+   
+    
+    background: #53BD9C;
+    border-radius: 5px;
+    border: none; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
